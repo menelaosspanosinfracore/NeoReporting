@@ -1,0 +1,9 @@
+﻿namespace ReportGenerator.Api.Models.Responses
+{
+    public class ReportResult
+    {
+        public string FileId { get; set; }
+        public string FileName { get; set; }
+        public string FilePath { get; set; }
+    }
+}
