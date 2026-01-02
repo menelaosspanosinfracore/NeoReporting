@@ -26,4 +26,32 @@ The service:
 ---
 
 ## Project Structure
-
+├── Controllers
+│ └── ReportsController.cs
+│
+├── Services
+│ └── Crystal
+│ └── CrystalReportService.cs
+│
+├── Models
+│ ├── Requests
+│ │ └── ReportRequest.cs
+│ └── Responses
+│ └── ReportResult.cs
+│
+├── Config
+│ ├── AppConfig.cs
+│ └── ReportSettings.cs
+│
+├── Logging
+│ ├── ILoggerService.cs
+│ └── NLogLogger.cs
+│
+├── Reports
+│ ├── Templates
+│ │ └── test.rpt
+│ └── Output
+│
+├── appsettings.json
+├── nlog.config
+└── README.md
